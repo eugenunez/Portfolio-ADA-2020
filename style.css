@@ -22,7 +22,7 @@ body{
     display: none;
 }
 
-.link-nav{
+.link-nav,.link-pro{
 margin-right: 20px; 
 }
 .link-nav-contacto {
@@ -47,6 +47,10 @@ a{
 
 a:hover{
     color:indigo;
+}
+
+a:visited{
+    color: indigo;
 }
 
 
@@ -117,6 +121,10 @@ h3{
     background-color:lightgrey;
     text-align: center;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     
 }
 .contenedor-tarjetas-conocimientos{
@@ -164,12 +172,18 @@ padding:10%;
     background-color: white;
     text-align: center;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
  }
 .contenedor-tarjetas-proyectos{
     background-color: white;
     display: flex; 
     flex-wrap: wrap;
     max-width: 900px;
+    justify-content: center;
     
 }
 
@@ -197,11 +211,13 @@ padding:10%;
     align-items: center;
     list-style-type: none;
     background-color: white;
-    font-size: 15px; 
+    font-size: 15px;
+
 }
 .titulo-proyecto{
     font-size: 15px;
     color:indigo;
+    
 }
 .boton-proyecto{
     border: 5px solid rgb(112, 87, 201);
@@ -270,5 +286,24 @@ padding:10%;
 @media (max-width:700px){
     .hamburguesa{
         display:block;
+        display:flex;
+        justify-content: flex-end;
+        margin-left:25px;
+        margin-top: 25px;
+        color: indigo;
+    }
+    .barra-navegacion,.links-navegacion-footer{
+        display:none;
+    }
+    .contenido-encabezado{
+        flex-wrap: wrap;
+    }
+    .frase-footer{
+        text-align: center;
+    }
+    .proyectos, .links-navegacion-proyectos{
+        flex-wrap: wrap;
+        margin: 10px;
+        
     }
 }

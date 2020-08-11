@@ -113,12 +113,7 @@ h2 {
     color:black;
 }
 
-h3{
-    color:indigo;
-    font-weight: bold;
-    font-size: 25px;
-    
-}
+
 p{
     color:black;
 }
@@ -199,16 +194,15 @@ padding:10%;
     list-style-type: none;
     font-size:15px;
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    align-items: center;    
 }
 
 .link-pro, .boton-proyecto{
-   
     font-size: 20px;
     font-weight: lighter;
-
     color: rgb(209,28,91);
-   margin:20px;
+    margin:20px;
 }
 
 .links-navegacion-proyectos a:visited{
@@ -241,9 +235,8 @@ padding:10%;
     padding-right: 25px;
     padding-bottom: 5px;
     font-size: 15px;
-    color:rgb(246,238,213); 
-    
-  
+    color:rgb(246,238,213);
+    text-decoration: none;
 
 }
 

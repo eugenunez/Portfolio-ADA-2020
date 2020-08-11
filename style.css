@@ -15,7 +15,7 @@ body{
     list-style-type: none;
     background-color:rgb(209,28,91);
     font-size: 15px;  
-    height: 70px;
+    height: 100px;
     margin-top: 0;
 }
 .hamburguesa{
@@ -59,22 +59,21 @@ a:hover{
     justify-content: space-around;
     align-items: center;
     justify-content: center;
-    padding:10%;
-  
-
+    height: 100vh;
 }
-
 .contenedor-avatar{
     width: 60%;
     height: 60%;
-   
+    
     }
 
     img{
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-    padding: 5%;
+    height: 100%;
+    margin:0;
+   
+    
+    
     
 }
 
@@ -111,7 +110,7 @@ h2 {
 }   
 .saludo h2{
     font-size: 20px;
-    color: rgb(234,75,29);
+    color:black;
 }
 
 h3{
@@ -125,17 +124,18 @@ p{
 }
 .descripcion-personal{
     font-size: 20px;
-    color:rgb(234,75,29);
+    color:black;
 }
 
 .conocimientos{
   
-    background-color:rgb(246,238,213);
+    background-color:rgb(248, 149, 198);
     text-align: center;
     padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
     
 }
@@ -144,11 +144,12 @@ p{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: 850px;
+    max-width: 1000px;
+    
 }
 .tarjeta{
-    background-color:rgb(246,238,213);
-    padding: 50px;
+    background-color:white;
+    padding:70px;
     width: 130px;
     height:130px;  
     margin:20px;
@@ -208,12 +209,7 @@ padding:10%;
     font-size: 20px;
     font-weight: lighter;
     margin:20px;
-    color: rgb(209,28,91);
-
-
-    
-   
-    
+    color: rgb(209,28,91);   
 }
 
 .links-navegacion-proyectos a:visited{
@@ -225,8 +221,6 @@ padding:10%;
     outline-width: 2px;
     color: black;
     text-align: center;
-
-
 }
 
 .links-navegacion-proyectos a:hover{
@@ -256,7 +250,7 @@ padding:10%;
     background-color:white;
     display: flex; 
     flex-wrap: wrap;
-    max-width: 900px;
+    max-width: 1000px;
     justify-content: center;
 
     
@@ -365,17 +359,30 @@ padding:10%;
     }
     .contenido-encabezado{
         flex-wrap: wrap;
+
     }
     .frase-footer{
         text-align: center;
     }
-    .proyectos{
+    .contenedor-tarjetas-proyectos{
         flex-wrap: wrap;
         margin: 10px;
+        align-content: stretch;
         
     }
+   
+
+    
     .contenido-encabezado{
         text-align:center;
+        display: flex;
+        flex-wrap: wrap;
+       
 
     }
+    .contenedor-avatar{
+        margin-right: 20%;
+        margin-top: 10px;
+    }
+   
 }

@@ -74,16 +74,17 @@ a:hover{
     width: 100%;
     height: auto;
     border-radius: 10px;
+    padding: 5%;
     
 }
 
-.boton-conoceme {
+.link-conoceme {
     background-color:rgb(209,28,91);
     border-radius: 50px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 9px;
+    padding-bottom: 10px;
     font-size: 15px;
     color:rgb(246,238,213); 
     font-weight:bold;
@@ -336,24 +337,24 @@ padding:10%;
         display:flex;
         justify-content: flex-end;
         margin:0;
-        color:rgb(234,75,29);
-        background-color: rgb(250,198,0);
+        color:rgb(246,238,213);
+        background-color: rgb(209,28,91);
         padding: 10px;
 
     }
     .hamburguesa a:visited{
-        color:rgb(234,75,29);
+        color:rgb(246,238,213);
     }
     .hamburguesa a:active{
         outline-style:solid;
-        outline-color: rgb(234,75,29);
+        outline-color: rgb(246,238,213);
         outline-width: 1px;
-        color: rgb(234,75,29);
+        color: rgb(246,238,213);
         padding:2px;
     }
     
     .hamburguesa a:hover{
-        color:rgb(234,75,29);
+        color:rgb(246,238,213);
     }
     
         

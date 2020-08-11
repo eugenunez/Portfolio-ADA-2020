@@ -191,12 +191,13 @@ padding:10%;
  }
  .proyectos{
     background-color: red;
-    text-align: center;
+   
     font-weight: bold;
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 100%;
    
 
  }
@@ -260,9 +261,6 @@ padding:10%;
     max-width: 100%;
     justify-content: center;
     margin:0;
-    
-
-
     
 }
 
@@ -380,12 +378,7 @@ padding:10%;
     .frase-footer{
         text-align: center;
     }
-    .proyectos{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+  
     .contenedor-tarjetas-proyectos{
         flex-wrap: wrap;
        

@@ -190,7 +190,7 @@ padding:10%;
      
  }
  .proyectos{
-    background-color:white;
+    background-color: red;
     text-align: center;
     font-weight: bold;
     display: flex;
@@ -380,25 +380,26 @@ padding:10%;
     .frase-footer{
         text-align: center;
     }
+    .proyectos{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     .contenedor-tarjetas-proyectos{
         flex-wrap: wrap;
-        margin: 10px;
-        align-content: stretch;
+       
         
     }
-    .contenedor
-
-    
     .contenido-encabezado{
         text-align:center;
         display: flex;
         flex-wrap: wrap;
-        margin-top: 20%;
-       
+        margin-top: 20%;  
 
     }
     .contenedor-avatar{
-        margin-right: 20%;
+       
         margin-top: 10%;
     }
    

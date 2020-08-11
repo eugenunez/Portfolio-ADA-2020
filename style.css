@@ -136,8 +136,6 @@ p{
     flex-direction: column;
     align-items: center;
     
-
-    
 }
 .contenedor-tarjetas-conocimientos{
     display: flex;
@@ -190,34 +188,27 @@ padding:10%;
      
  }
  .proyectos{
-    background-color: red;
-   
+    background-color:white;
     font-weight: bold;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-   
-
  }
 .links-navegacion-proyectos{
-   
     list-style-type: none;
     font-size:15px;
-
-    align-items: center;
- 
-
-
+    display: flex;
+    flex-wrap: wrap;    
 }
 
 .link-pro, .boton-proyecto{
-
+   
     font-size: 20px;
     font-weight: lighter;
-    margin-right: 20px;
-    color: rgb(209,28,91);   
+
+    color: rgb(209,28,91);
+   margin:20px;
 }
 
 .links-navegacion-proyectos a:visited{
@@ -228,6 +219,7 @@ padding:10%;
     outline-color:rgb(250,198,0);
     outline-width: 2px;
     color: black;
+    text-align: center;
     
 }
 
@@ -256,7 +248,7 @@ padding:10%;
 }
 
 .contenedor-tarjetas-proyectos{
-    background-color:greenyellow;
+    background-color:white;
     display: flex; 
     flex-wrap: wrap;
     max-width: 100%;
@@ -267,7 +259,7 @@ padding:10%;
 
 .tarjeta-proyectos{
     background-color:white;
-   text-align: center;
+    text-align: center;
     width: 250px;
     height:250px;  
     margin:10px;
@@ -373,28 +365,26 @@ padding:10%;
         display:none;
     }
     .contenido-encabezado{
-        flex-wrap: wrap;
-
-    }
-    .frase-footer{
-        text-align: center;
-    }
-  
-    .contenedor-tarjetas-proyectos{
-        flex-wrap: wrap;
-       
-        
-    }
-    .contenido-encabezado{
-        text-align:center;
         display: flex;
         flex-wrap: wrap;
-        margin-top: 20%;  
+        text-align:center;
+        margin-top: 20%; 
 
     }
     .contenedor-avatar{
        
         margin-top: 10%;
     }
+    .links-navegacion-proyectos{
+        justify-content: center ;
+       
+        
+    }
+    .frase-footer{
+        text-align: center;
+    }
+  
+    
+   
    
 }

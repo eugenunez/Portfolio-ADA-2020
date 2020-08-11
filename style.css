@@ -58,7 +58,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    
     
 }
 .contenedor-avatar{
@@ -67,10 +67,11 @@ a:hover{
     
     }
 
-    img{
+    .contenedor-avatar img{
     width: 100%;
     height: auto;
-    margin:0;
+    margin-top:15%;
+   
    
     
 }
@@ -86,6 +87,7 @@ a:hover{
     color:rgb(246,238,213); 
     font-weight:bold;
     text-decoration: none;
+   
 
       
 }
@@ -127,7 +129,7 @@ p{
 
 .conocimientos{
   
-    background-color:rgb(248, 149, 198);
+    background-color:rgb(245, 196, 220);
     text-align: center;
     padding: 50px;
     display: flex;
@@ -142,7 +144,7 @@ p{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: 1000px;
+    max-width: 950px;
     
 }
 .tarjeta{
@@ -154,6 +156,12 @@ p{
     border: 1px solid rgb(209,28,91);
     border-radius: 10px; 
     text-align: center;
+}
+.tarjeta img{
+        width: 100%;
+        height: auto;
+    
+       
     
 }
 .seccion-frase{
@@ -189,6 +197,7 @@ padding:10%;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+   
 
  }
 .links-navegacion-proyectos{
@@ -248,28 +257,36 @@ padding:10%;
     background-color:white;
     display: flex; 
     flex-wrap: wrap;
-    max-width: 900px;
+    max-width: 100%;
     justify-content: center;
+    margin:0;
+    
+
 
     
 }
 
 .tarjeta-proyectos{
     background-color:white;
-    padding: 50px;
-    width: 130px;
-    height:130px;  
-    margin:20px;
+   
+    width: 250px;
+    height:250px;  
+    margin:10px;
     border: 1px solid rgb(209,28,91);
     border-radius: 10px; 
-    align-items: center;
-    justify-content:center; 
+    display:flex;
+    flex-direction: column;
+    padding:4%;
   
    
 }
 .img-proyecto{
     width: 100%;
-    height:auto
+    height:auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
@@ -369,7 +386,7 @@ padding:10%;
         align-content: stretch;
         
     }
-   
+    .contenedor
 
     
     .contenido-encabezado{

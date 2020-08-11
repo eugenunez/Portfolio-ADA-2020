@@ -13,7 +13,7 @@ body{
     justify-content:flex-end;
     align-items: center;
     list-style-type: none;
-    background-color:lightgrey;
+    background-color:rgb(209,28,91);
     font-size: 15px;  
     height: 70px;
     margin-top: 0;
@@ -22,38 +22,36 @@ body{
     display: none;
 }
 
-.link-nav,.link-pro{
+.link-nav{
 margin-right: 20px; 
 }
 .link-nav-contacto {
-    border: 5px solid rgb(112, 87, 201);
-    background-color: rgb(112, 87, 201);
+    border: 5px solid rgb(246,238,213);
+    background-color: rgb(246,238,213);
     border-radius: 50px;
     padding-top: 5px;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 5px;
     font-size: 15px;
-    color: white; 
+    color:rgb(209,28,91); 
     margin-right: 70px;
+}
+
+a:visited{
+    color:rgb(246,238,213);
 }
 
 a{
     text-decoration: none;
 }
- a:active{
-    color:indigo;
+a:active{
+    color:rgb(246,238,213);
 }
 
 a:hover{
-    color:indigo;
+    color:rgb(246,238,213);
 }
-
-a:visited{
-    color: indigo;
-}
-
-
 
 .contenido-encabezado {
     background-color:white;
@@ -80,19 +78,22 @@ a:visited{
 }
 
 .boton-conoceme {
-    background-color: rgb(112, 87, 201);
+    background-color:rgb(209,28,91);
     border-radius: 50px;
     padding-top: 5px;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 9px;
     font-size: 15px;
-    color: white;  
+    color:rgb(246,238,213); 
+    font-weight:bold;
+    text-decoration: none;
+
       
 }
 
 h1{
-    color: rgb(112, 87, 201);
+    color: rgb(209,28,91);
     font-size: 60px;
     font-weight: bold;
     margin: 0;
@@ -101,7 +102,7 @@ h1{
 }
 
 h2 {
-    color:rgb(112, 87, 201);
+    color:rgb(209,28,91);
     font-weight: bolder;
     font-size: 40px;
 
@@ -109,22 +110,26 @@ h2 {
 }   
 .saludo h2{
     font-size: 20px;
-    color: black;
+    color: rgb(234,75,29);
 }
 
 h3{
     color:indigo;
     font-weight: bold;
     font-size: 25px;
+    
+}
+p{
+    color:rgb(209,28,91);
 }
 .descripcion-personal{
     font-size: 20px;
-    color: indigo;
+    color:rgb(234,75,29);
 }
 
 .conocimientos{
   
-    background-color:lightgrey;
+    background-color:rgb(246,238,213);
     text-align: center;
     padding: 50px;
     display: flex;
@@ -141,65 +146,128 @@ h3{
     max-width: 850px;
 }
 .tarjeta{
-    background-color: white;
+    background-color:rgb(246,238,213);
     padding: 50px;
     width: 130px;
     height:130px;  
     margin:20px;
-    border: 1px solid gray;
+    border: 1px solid rgb(209,28,91);
     border-radius: 10px; 
     text-align: center;
     
 }
 .seccion-frase{
-background-color:rgb(112, 87, 201);
+background-color:rgb(209,28,91);
 display: flex;
 flex-direction: column;
 justify-content: center;
+
 align-content: center;
 padding:10%;
  }
  .frase{
      font-size: 20px;
-     color:white;
+     color:rgb(246,238,213);
      text-align: center;
      justify-content: center;
+     padding:50px;
      
     
  }
  .autor-frase{
      font-size: 35px;
      font-weight: bold;
-     color: white;
+     color:rgb(246,238,213);
      text-align: center;
      
  }
  .proyectos{
-    background-color: white;
+    background-color:white;
     text-align: center;
     font-weight: bold;
     display: flex;
     align-items: center;
-    align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+
  }
+.links-navegacion-proyectos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: 15px;
+    padding:0;
+
+
+}
+
+.link-pro, .boton-proyecto{
+
+    font-size: 20px;
+    font-weight: lighter;
+    margin:20px;
+    color: rgb(209,28,91);
+
+
+    
+   
+    
+}
+
+.links-navegacion-proyectos a:visited{
+    color:rgb(209,28,91);
+}
+.links-navegacion-proyectos a:active{
+    outline-style:solid;
+    outline-color:rgb(250,198,0);
+    outline-width: 2px;
+    color: black;
+    text-align: center;
+
+
+}
+
+.links-navegacion-proyectos a:hover{
+    color:rgb(209,28,91);
+}
+
+.titulo-proyecto{
+    font-size: 15px;
+    color:rgb(209,28,91);
+    
+}
+.boton-proyecto{
+    border: 5px solid rgb(209,28,91);
+    background-color: rgb(209,28,91);
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    color:rgb(246,238,213); 
+    margin-right: 20px;
+
+}
+
 .contenedor-tarjetas-proyectos{
-    background-color: white;
+    background-color:white;
     display: flex; 
     flex-wrap: wrap;
     max-width: 900px;
     justify-content: center;
+
     
 }
 
 .tarjeta-proyectos{
-    background-color: white;
+    background-color:white;
     padding: 50px;
     width: 130px;
     height:130px;  
     margin:20px;
-    border: 1px solid gray;
+    border: 1px solid rgb(209,28,91);
     border-radius: 10px; 
     align-items: center;
     justify-content:center; 
@@ -207,40 +275,13 @@ padding:10%;
 }
 .img-proyecto{
     width: 100%;
-    height: auto;
+    height:auto;
 }
 
 
-.links-navegacion-proyectos {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    background-color: white;
-    font-size: 15px;
-
-}
-.titulo-proyecto{
-    font-size: 15px;
-    color:indigo;
-    
-}
-.boton-proyecto{
-    border: 5px solid rgb(112, 87, 201);
-    background-color: rgb(112, 87, 201);
-    border-radius: 50px;
-    padding-top: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 5px;
-    font-size: 15px;
-    color: white; 
-    margin-right: 20px;
-
-}
 .pie{
     text-align: center;
-    background-color:lightgrey;
+    background-color:rgb(209,28,91);
     
     padding:1%;
 
@@ -251,7 +292,7 @@ padding:10%;
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    color: white;
+    color:rgb(246,238,213);
     margin-right: 10px;
 
 }
@@ -260,16 +301,16 @@ padding:10%;
     
 }
 .link-footer-contacto {
-    color:indigo;
+    color:rgb(246,238,213);
 
 }
 .frase-footer{
-    color:indigo;
+    color:rgb(246,238,213);
 
 }
 .color-icon-quotes{
-    color:white;
-    margin-top: 20px;
+    color:rgb(246,238,213);
+    
     
     text-align: center;
 }
@@ -280,7 +321,7 @@ padding:10%;
     color:blue;
 }
 .icon-insta{
-    color:mediumvioletred;
+    color:indigo;
 }
 .icon-github,.icon-face,.icon-insta{
     margin: 20px;
@@ -295,10 +336,29 @@ padding:10%;
         display:flex;
         justify-content: flex-end;
         margin:0;
-        color: indigo;
-        background-color: lightgrey;
+        color:rgb(234,75,29);
+        background-color: rgb(250,198,0);
         padding: 10px;
+
     }
+    .hamburguesa a:visited{
+        color:rgb(234,75,29);
+    }
+    .hamburguesa a:active{
+        outline-style:solid;
+        outline-color: rgb(234,75,29);
+        outline-width: 1px;
+        color: rgb(234,75,29);
+        padding:2px;
+    }
+    
+    .hamburguesa a:hover{
+        color:rgb(234,75,29);
+    }
+    
+        
+
+
     .barra-navegacion,.links-navegacion-footer{
         display:none;
     }
@@ -308,7 +368,7 @@ padding:10%;
     .frase-footer{
         text-align: center;
     }
-    .proyectos, .links-navegacion-proyectos{
+    .proyectos{
         flex-wrap: wrap;
         margin: 10px;
         

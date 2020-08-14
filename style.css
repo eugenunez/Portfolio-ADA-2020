@@ -18,6 +18,7 @@ body{
     height: 100px;
     margin-top: 0;
 }
+
 .hamburguesa{
     display: none;
 }
@@ -26,6 +27,7 @@ body{
 margin-right: 20px; 
 color:rgb(246,238,213);
 }
+
 .link-nav-contacto {
     border: 5px solid rgb(246,238,213);
     background-color: rgb(246,238,213);
@@ -42,13 +44,15 @@ color:rgb(246,238,213);
 a{
     text-decoration: none;
 }
+
 .link-nav a:link{
     color:rgb(246,238,213);
-
 }
+
 .link-nav a:active{
     color:rgb(246,238,213);
 }
+
 .link-nav a:visited{
     color:rgb(246,238,213);
 }
@@ -64,22 +68,21 @@ a{
     justify-content: center;
     height: 100vh;   
 }
+
 .contenedor-avatar{
     width: 70%;
     height: 70%;
     margin-bottom: 15%;
- 
-    }
+ }
 
-    .contenedor-avatar img{
+.contenedor-avatar img{
     width: 100%;
-    height: auto;  
-    
+    height: auto;      
 }
+
 .saludo{
     margin-left:5%;
-
-    }
+}
 
 .link-loquehago {
     border: 5px solid rgb(209,28,91);
@@ -92,59 +95,54 @@ a{
     font-size: 15px;
     font-weight:bold;
     color:rgb(246,238,213);
-   
-
-
 }
+
 .saludo h1{
     color: rgb(209,28,91);
     font-size: 60px;
-    font-weight: bold;    
-   
+    font-weight: bold;      
 }
 
 h2 {
     color:rgb(209,28,91);
     font-weight: bolder;
-    font-size: 40px;
-  
+    font-size: 40px; 
 }   
+
 .saludo h2{
     font-size: 20px;
     color:black;
 }
 
-
-p{
-    color:rgb(209,28,91);
-}
 .descripcion-personal{
     font-size: 20px;
     color:black;
 }
 
 .conocimientos{
-  
     background-color:rgb(245, 196, 220);
     text-align: center;
     padding: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;    
+}
+
+.info-conocimientos{
+    color: rgb(209,28,91);
+    font-size:20px;
 }
 .contenedor-tarjetas-conocimientos{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: 950px;
-  
-    
+    max-width: 950px;    
 }
+
 .tarjeta{
     background-color:white;
-    padding:70px;
+    padding:60px;
     width: 130px;
     height:130px;  
     margin:20px;
@@ -152,11 +150,17 @@ p{
     border-radius: 10px; 
     text-align: center;
 }
+
 .tarjeta img{
         width: 100%;
-        height: auto;       
-    
+        height: auto;           
 }
+
+.titulo-tarjeta{
+    color:rgb(209,28,91);
+    font-size:20px;
+}
+
 .seccion-frase{
 background-color:rgb(209,28,91);
 display: flex;
@@ -164,23 +168,23 @@ flex-direction: column;
 justify-content: center;
 align-content: center;
 padding:10%;
- }
+}
 
- .frase{
+.frase{
      font-size: 20px;
      color:rgb(246,238,213);
      text-align: center;
      justify-content: center;
-     padding:50px;   
-    
+     padding:50px;      
  }
+
  .autor-frase{
      font-size: 35px;
      font-weight: bold;
      color:rgb(246,238,213);
-     text-align: center;
-     
+     text-align: center;    
  }
+
  .proyectos{
     background-color:white;
     font-weight: bold;
@@ -189,10 +193,22 @@ padding:10%;
     align-items: center;
     flex-direction: column;
  }
+
 .links-navegacion-proyectos{
     list-style-type: none;
     display: flex;
     align-items: center;  
+    justify-content: center;
+}
+.links-navegacion-proyectos a:active{
+    color: rgb(209,28,91);
+    border: 2px solid gold;   
+}
+.links-navegacion-proyectos a:visited{
+    color:rgb(209,28,91);
+}
+.links-navegacion-proyectos a:hover{
+    color:rgb(209,28,91);
 }
 
 .link-pro {
@@ -202,28 +218,12 @@ padding:10%;
     margin:20px;
 }
 
-.link-pro a:active{
-    outline-style: hidden;
-    outline-color:rgb(250,198,0);
-    outline-width: 2px;
-    color: rgb(209,28,91);
-    text-align: center;
-    
-}
-.link-pro a:visited{
-    color:rgb(209,28,91);
-}
-.
-
-.link-pro a:hover{
-    color:rgb(209,28,91);
-}
-
 .titulo-proyecto{
     font-size: 15px;
     color:black;
-    
+    font-weight: lighter;   
 }
+
 .boton-proyecto{
     border: 5px solid rgb(209,28,91);
     background-color: rgb(209,28,91);
@@ -234,9 +234,7 @@ padding:10%;
     padding-bottom: 5px;
     font-size: 15px;
     color:rgb(246,238,213);
-   
     text-decoration: none;
-
 }
 
 .contenedor-tarjetas-proyectos{
@@ -244,9 +242,7 @@ padding:10%;
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 100%;
-    
-   
+    max-width: 100%;  
 }
 
 .tarjeta-proyectos{
@@ -259,25 +255,21 @@ padding:10%;
     border-radius: 10px; 
     display:flex;
     flex-direction: column;
-    padding:4%;
-  
-   
+    padding:4%;   
 }
+
 .img-proyecto{
     width: 100%;
     height:auto;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .pie{
     text-align: center;
-    background-color:rgb(209,28,91);
-    
+    background-color:rgb(209,28,91);  
     padding:1%;
-
 }
 
 .links-navegacion-footer{
@@ -287,41 +279,44 @@ padding:10%;
     list-style-type: none;
     color:rgb(246,238,213);
     margin-right: 10px;
-
 }
+
 .link-footer{
     margin-right: 20px;
-    color:rgb(246,238,213);
-    
+    color:rgb(246,238,213);    
 }
+
 .link-footer-contacto {
     color:rgb(246,238,213);
-
 }
-.frase-footer{
+
+.pie p{
     color:rgb(246,238,213);
-
+    font-size:20px;
 }
+
 .icon-quotes{
     color:rgb(246,238,213);
     text-align:center;
     font-size: 70px;
 } 
-    
-    text-align: center;
-}
+
 .icon-github{
     color:black;
 }
+
 .icon-face{
     color:blue;
 }
+
 .icon-insta{
     color:indigo;
 }
+
 .icon-github,.icon-face,.icon-insta{
     margin: 20px;
 }
+
 .icon-heart{
     color:red;
 }
@@ -331,15 +326,13 @@ padding:10%;
         display:block;
         display:flex;
         justify-content: flex-end;
-        margin:0;
+       
         color:rgb(246,238,213);
         background-color: rgb(209,28,91);
+        height:25px;
         padding: 10px;
+    }
 
-    }
-    .hamburguesa a:visited{
-        color:rgb(246,238,213);
-    }
     .hamburguesa a:active{
         outline-style:solid;
         outline-color: rgb(246,238,213);
@@ -347,71 +340,82 @@ padding:10%;
         color: rgb(246,238,213);
         padding:2px;
     }
-    
+    .hamburguesa a:visited{
+        color:rgb(246,238,213);
+    }
+
     .hamburguesa a:hover{
         color:rgb(246,238,213);
     }
+
     .saludo h1{
-        font-size: 30px;
+        font-size: 40px;
     }
+
     h2{
         font-size: 20px;
-
     }
+
     .barra-navegacion,.links-navegacion-footer{
         display:none;
     }
+
     .contenido-encabezado{
         display: flex;
         flex-wrap: wrap;
         text-align:center;
-        margin-top:10%;
-         
-
+        margin-top:10%;    
     }
+
     .contenedor-avatar{
         margin-top: 20%;
-    
+    }
+
+    .descripcion-personal{
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+    .info-conocimientos{
+        font-size:15px;
     }
     .tarjeta{
-        width:50px;
-        height:50px;
+        width: 25px;
+        height:25px;
+        padding:30px;
     }
 
+    .titulo-tarjeta{
+        font-size: 10px;
+    
+    }
     .link-pro, .boton-proyecto{
         font-size: 10px;
-        margin-right: 10px;
-        
+        margin-right: 1px;   
     }
-    .frase-footer{
-        text-align: center;
-    }
-  
-    .contenedor-tarjetas-proyectos{
-       
-        display: flex;
-        flex-direction: column;
-        
 
+    .tarjeta-proyectos{
+        width: 200px;
+        height:200px;
+        padding:20%;
     }
+.links-navegacion-proyectos{
+    text-align:center;
+}
     .frase{
-        font-size: 12px;
+        font-size: 15px;
     }
+
     .autor-frase{
         font-size: 20px;
     }
+
     .icon-quotes{
         font-size:40px;
     }
    
-    .descripcion-personal{
-        font-size: 10px;
-        margin-bottom: 50px;
-    
-    }
-    tarjeta-proyectos{
-        width: 200px;
-        height: 200px;
-    }
+    .pie p{
+        font-size: 15px;
 
+    }
+    
 }

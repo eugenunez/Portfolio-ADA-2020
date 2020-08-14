@@ -1,7 +1,7 @@
 # Personal Portfolio Maria Eugenia Nuñez
 
-This is a personal portfolio that details the technologies that I know as Frontend Developer and where I will add my next projects.
+This is my personal portfolio that describes the technologies that I had the opportunity to work as Frontend Developer. On this portfolio I will add my next projects.
 
-To make this web page use the following technologies: html and css.
+To made this web page used the following technologies: html and css.
 
 URL: https://eugenunez.github.io/Portfolio-ADA-2020/

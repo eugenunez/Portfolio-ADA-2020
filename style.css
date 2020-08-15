@@ -329,13 +329,32 @@ padding:10%;
 .icon-heart{
     color:red;
 }
+@media (min-width:600px) and (max-width:900px){
+    .contenido-encabezado{
+        display: flex;
+        flex-wrap: wrap;
+        text-align:center;
+        
+    }
+    .contenedor-avatar{
+        margin-top:0px;
+        height: 50%;
+        width: 50%;
+        margin-top:5%;
+    }
+    .tarjeta-proyectos{
+        width: 150px;
+        height:150px;
+        padding:10%;
+    }
 
+
+    }
 @media (max-width:600px){
     .hamburguesa{
         display:block;
         display:flex;
         justify-content: flex-end;
-       
         color:rgb(246,238,213);
         background-color: rgb(209,28,91);
         height:25px;
@@ -394,7 +413,7 @@ padding:10%;
         height:auto;
         padding: 20px;
         margin:10px;
-    
+
     }
 
     .titulo-tarjeta{
@@ -414,7 +433,6 @@ padding:10%;
         height:200px;
         padding:20%;
     }
-
 
     .frase{
         font-size: 15px;

@@ -377,20 +377,24 @@ padding:10%;
     }
 
     .descripcion-personal{
-        font-size: 15px;
+        font-size: 12px;
         margin-bottom: 50px;
+        
     }
     .info-conocimientos{
         font-size:15px;
     }
+   
     .tarjeta{
-        width: 20px;
-        height:20px;
-        padding:30px;
+        width: 60px;
+        height:auto;
+        padding: 20px;
+        margin:10px;
+    
     }
 
     .titulo-tarjeta{
-        font-size: 5px;
+        font-size: 15px;
     
     }
     .links-navegacion-proyectos{

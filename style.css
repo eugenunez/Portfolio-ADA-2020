@@ -62,6 +62,7 @@ a{
 }
 
 .contenido-encabezado {
+    /* este background color no es necesario porque es el que viene por defecto */
     background-color:white;
     display: flex;
     align-items: center;
@@ -117,17 +118,20 @@ h2 {
 
 .saludo h2{
     font-size: 20px;
+    /* no es necesario color black porque es el que viene por defecto */
     color:black;
 }
 
 .descripcion-personal{
     font-size: 20px;
+    /* no es necesario color black porque es el que viene por defecto */
     color:black;
   
 }
 
 .conocimientos{
     background-color:rgb(245, 196, 220);
+    /* no es necesario aqui text align center, se ocupa flex  */
     text-align: center;
     padding: 50px;
     display: flex;
@@ -172,6 +176,7 @@ h2 {
 background-color:rgb(209,28,91);
 display: flex;
 flex-direction: column;
+/* justify content no es necesario aqui, mucho menos align content ya que no hay flex wrap */
 justify-content: center;
 align-content: center;
 padding:10%;
@@ -193,6 +198,7 @@ padding:10%;
  }
 
  .proyectos{
+     /* no es necesario aqui background color */
     background-color:white;
     font-weight: bold;
     display: flex;
@@ -229,6 +235,7 @@ padding:10%;
 
 .titulo-proyecto{
     font-size: 15px;
+    /* no es necesario color black aqui */
     color:black;
     font-weight: lighter;   
 }
@@ -247,6 +254,7 @@ padding:10%;
 }
 
 .contenedor-tarjetas-proyectos{
+    /* no es necesario background color white aqui */
     background-color:white;
     display: flex; 
     flex-wrap: wrap;
@@ -255,6 +263,7 @@ padding:10%;
 }
 
 .tarjeta-proyectos{
+    /* no es necesario background color white aqui */
     background-color:white;
     text-align: center;
     width: 250px;
@@ -279,6 +288,9 @@ padding:10%;
     text-align: center;
     background-color:rgb(209,28,91);  
     padding:1%;
+
+    /* El color de text se hereda, asi que podrias haber puesto 
+    color:rgb(246,238,213) aqui y ahorrartelo en los siguientes estilos */
 }
 
 .links-navegacion-footer{
@@ -331,6 +343,7 @@ padding:10%;
 }
 @media (min-width:600px) and (max-width:900px){
     .contenido-encabezado{
+        /* no es necesario repetir display flex aqui! */
         display: flex;
         flex-wrap: wrap;
         text-align:center;
@@ -352,6 +365,7 @@ padding:10%;
     }
 @media (max-width:600px){
     .hamburguesa{
+        /* aqui primero decis display block y display flex: uno solo basta */
         display:block;
         display:flex;
         justify-content: flex-end;

@@ -39,7 +39,18 @@
 
     <header class="contenido-encabezado" id="Presentacion">
         <div class="saludo">
+
+            <!-- al darle h2 a este Hola y a Mis Conocimientos, estas diciendo que tienen la misma jerarquia
+            Yo creo que este hola es menos importante, por lo que deberia ser un h3 -->
             <h2>Hola! Soy</h2>
+            <!-- No es buena idea usar <br> para darle saltos de linea al texto.     
+                estamos usando <br> para estilar el contenido, violando la regla de separación 
+                de responsabilidades entre CSS y HTML. 
+                CSS debe ser el único encargado de estilar nuestra web. 
+                En este caso, por ejemplo, podríamos poner cada línea dentro de un <span> y decirle en el 
+                CSS a h1: display: flex; flex-direction: column;. 
+                De esta manera nos aseguramos de que el HTML sólo de estructura, y el CSS el estilado -->
+          
             <h1>Maria Eugenia <br>Nuñez</br></h1>
             <p class="descripcion-personal">Química, futura docente y desarrolladora Front-End  </p>
             <a href="#Mis Proyectos" class="link-loquehago">LO QUE HAGO</a>
@@ -110,6 +121,7 @@
 
         <h2>Mis proyectos</h2>
 
+        <!-- no veo que sea necesario este div  -->
         <div>
 
             <ul class="links-navegacion-proyectos">

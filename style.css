@@ -7,7 +7,9 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin:0;
 }
-
+a{
+    text-decoration: none;
+}
 .barra-navegacion {
     display: flex;
     justify-content:flex-end;
@@ -16,11 +18,51 @@ body{
     background-color:rgb(209,28,91);
     font-size: 15px;  
     height: 100px;
-    margin-top: 0;
+    margin-top:0px;
+
+}
+.menu-responsive{ 
+background-color: pink; 
+position:relative;
+width: 100%;
+transition:1s;
+transform:translateY(-200px);
+border-radius: 5px;
+padding:1px;
+
+}
+.menu-responsive ul{
+    padding-right:5px;
+}
+.links {
+padding: 2px;
+}
+.menu-responsive a:link{
+    color:rgb(209,28,91);
 }
 
+.menu-responsive a:active{
+    color:rgb(209,28,91);
+}
+
+.menu-responsive a:visited{
+    color:rgb(209,28,91);
+}
+
+.menu-responsive a:hover{
+    color:rgb(209,28,91);
+}
+
+.mostrar-menu{
+    transform:translateY(0px);
+}
 .hamburguesa{
-    display: none;
+    display: none;  
+  
+}
+#hamburguesa{
+    background-color: pink;
+    border:2px solid whitesmoke;
 }
 
 .link-nav{
@@ -32,18 +74,16 @@ color:rgb(246,238,213);
     border: 5px solid rgb(246,238,213);
     background-color: rgb(246,238,213);
     border-radius: 50px;
-    padding-top: 5px;
+
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 5px;
+  
     font-size: 15px;
     color:rgb(209,28,91); 
     margin-right: 70px;
 }
 
-a{
-    text-decoration: none;
-}
+
 
 .link-nav a:link{
     color:rgb(246,238,213);
@@ -57,17 +97,17 @@ a{
     color:rgb(246,238,213);
 }
 
-.link nav a:hover{
+.link-nav a:hover{
     color:rgb(246,238,213);
 }
 
 .contenido-encabezado {
-    /* este background color no es necesario porque es el que viene por defecto */
-    background-color:white;
+  
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;   
+    height: 100vh; 
+   
 }
 
 .contenedor-avatar{
@@ -118,14 +158,12 @@ h2 {
 
 .saludo h2{
     font-size: 20px;
-    /* no es necesario color black porque es el que viene por defecto */
-    color:black;
+    
 }
 
 .descripcion-personal{
     font-size: 20px;
-    /* no es necesario color black porque es el que viene por defecto */
-    color:black;
+   
   
 }
 
@@ -198,8 +236,7 @@ padding:10%;
  }
 
  .proyectos{
-     /* no es necesario aqui background color */
-    background-color:white;
+   
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -227,6 +264,10 @@ padding:10%;
 }
 
 .link-pro {
+    background-color: pink;
+    border:2px solid pink;
+    border-radius:20px;
+    padding:10px;
     font-size: 20px;
     font-weight: lighter;
     color: rgb(209,28,91);  
@@ -235,8 +276,7 @@ padding:10%;
 
 .titulo-proyecto{
     font-size: 15px;
-    /* no es necesario color black aqui */
-    color:black;
+   
     font-weight: lighter;   
 }
 
@@ -254,8 +294,7 @@ padding:10%;
 }
 
 .contenedor-tarjetas-proyectos{
-    /* no es necesario background color white aqui */
-    background-color:white;
+   
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
@@ -263,8 +302,7 @@ padding:10%;
 }
 
 .tarjeta-proyectos{
-    /* no es necesario background color white aqui */
-    background-color:white;
+   
     text-align: center;
     width: 250px;
     height:250px;  
@@ -341,6 +379,9 @@ padding:10%;
 .icon-heart{
     color:red;
 }
+.hidden{
+    display:none;
+}
 @media (min-width:600px) and (max-width:900px){
     .contenido-encabezado{
         /* no es necesario repetir display flex aqui! */
@@ -366,7 +407,6 @@ padding:10%;
 @media (max-width:600px){
     .hamburguesa{
         /* aqui primero decis display block y display flex: uno solo basta */
-        display:block;
         display:flex;
         justify-content: flex-end;
         color:rgb(246,238,213);
@@ -406,11 +446,11 @@ padding:10%;
         display: flex;
         flex-wrap: wrap;
         text-align:center;
-        margin-top:10%;    
+        margin-top:0;    
     }
 
     .contenedor-avatar{
-        margin-top: 20%;
+        margin-top:20px;
     }
 
     .descripcion-personal{
